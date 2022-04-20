@@ -1,0 +1,77 @@
+I";<h2 id="bem-방법론이란">BEM 방법론이란?</h2>
+
+<p>BEM은 Block Element Modifier의 약자로, css 구조를 개선시키기 위한 css 개발 방법론 중 하나입니다.
+클래스의 이름을 짓는데 있어 구조적인 방법을 제시합니다. (id에는 사용할 수 없습니다.)</p>
+
+<p>BEM 구조의 이름을 여러번 반복하여 재사용하는 것이 가능하며, CSS나 Sass 파일에서도 일관된 구조를 만들기 때문에 유지보수가 쉽고 확장하기 편리하다는 장점이 있다.</p>
+
+<h2 id="block-블록">Block 블록</h2>
+
+<ul>
+  <li>재사용 할 수 있는 기능적으로 독립적인 페이지 구성 요소로 HTML에서 블록은 class 속성으로 표시됩니다.</li>
+  <li>블럭은 환경에 영향을 받으면 안되기 때문에 여백이나 위치를 설정하지 말아야 합니다.</li>
+  <li>블럭은 클래스의 어근을 만들고 항상 맨 앞에 위치합니다.</li>
+  <li>블럭을 정의한 후, 블럭이 형성한 클래스의 어근을 시작으로 그 블럭이 포함하는 요소들의 클래스명을 짓습니다.</li>
+</ul>
+
+<p>예) header, menu, footer …</p>
+
+<h2 id="element-요소">Element 요소</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>재사용할 수 있다
+</code></pre></div></div>
+
+<h3 id="1-base가-되는-브랜치-최신화">1. base가 되는 브랜치 최신화</h3>
+
+<p>master 브랜치를 가장 최신 상태로 변경한다.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout master
+git pull origin master
+</code></pre></div></div>
+
+<h3 id="2-내가-작업하는-브랜치-최신화">2. 내가 작업하는 브랜치 최신화</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout dev
+git rebase master
+</code></pre></div></div>
+
+<h2 id="rebase로-여러-커밋-하나로-합치기">rebase로 여러 커밋 하나로 합치기</h2>
+
+<h3 id="1-rebase-사용">1. rebase 사용</h3>
+
+<p>최신 커밋부터 총 3개를 합치고 싶으면 HEAD~3라고 입력한다. (2개라면 2라고 하면 된다.)</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git rebase <span class="nt">-i</span> HEAD~3
+</code></pre></div></div>
+
+<p><br /></p>
+
+<h3 id="2-합칠-커밋-선택">2. 합칠 커밋 선택</h3>
+
+<p>어떤 커밋으로 합칠 것인지 선택한다.
+<img src="https://user-images.githubusercontent.com/96608232/149260216-0c455812-1039-48f0-9238-0b97afba62df.png" alt="image" /></p>
+
+<p>최상단의 커밋을 제외하고 모두 pick을 s(squash)로 변경한 후 <code class="language-plaintext highlighter-rouge">:wq</code>를 입력해 저장&amp;종료를 한다.
+(squash인 커밋들을 pick으로 합치겠다는 의미)
+<img src="https://user-images.githubusercontent.com/96608232/149286742-b0b79689-42ad-4f7a-9a28-b5770a82aa75.png" alt="image" /></p>
+
+<p><br /></p>
+
+<h3 id="3-커밋-메세지-수정">3. 커밋 메세지 수정</h3>
+
+<p>아래와 같은 커밋을 편집할 수 있는 화면이 나오면 남겨 놓을 1개의 커밋만 빼고 모두 삭제해준다.</p>
+
+<p><img src="https://user-images.githubusercontent.com/96608232/149288386-cd8a576d-0721-48de-968c-cc7fe2eca72f.png" alt="image" /></p>
+
+<p>모두 삭제했으면 <code class="language-plaintext highlighter-rouge">:wq</code>를 입력해 저장&amp;종료한다.
+<img src="https://user-images.githubusercontent.com/96608232/149288628-aad3e28a-cc44-4a6b-8a17-088f78349415.png" alt="image" /></p>
+
+<p><br /></p>
+
+<h3 id="4-push-하기">4. push 하기</h3>
+
+<p>강제 push를 해준다.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push <span class="nt">-f</span> origin dev
+</code></pre></div></div>
+:ET

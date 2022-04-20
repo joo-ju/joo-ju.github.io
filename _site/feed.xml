@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-20T11:36:31+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>GitHub User</name></author><entry><title type="html">Python replace() 사용방법 및 예제</title><link href="http://localhost:4000/python/2022/04/20/Python-replace-%EC%82%AC%EC%9A%A9%EB%B0%A9%EB%B2%95-%EB%B0%8F-%EC%98%88%EC%A0%9C.html" rel="alternate" type="text/html" title="Python replace() 사용방법 및 예제" /><published>2022-04-20T00:00:00+09:00</published><updated>2022-04-20T00:00:00+09:00</updated><id>http://localhost:4000/python/2022/04/20/Python-replace-%EC%82%AC%EC%9A%A9%EB%B0%A9%EB%B2%95-%EB%B0%8F-%EC%98%88%EC%A0%9C</id><content type="html" xml:base="http://localhost:4000/python/2022/04/20/Python-replace-%EC%82%AC%EC%9A%A9%EB%B0%A9%EB%B2%95-%EB%B0%8F-%EC%98%88%EC%A0%9C.html"><![CDATA[<h2 id="replace-함수">replace 함수</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-20T11:42:32+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>GitHub User</name></author><entry><title type="html">Python replace() 사용방법 및 예제</title><link href="http://localhost:4000/python/2022/04/20/Python-replace-%EC%82%AC%EC%9A%A9%EB%B0%A9%EB%B2%95-%EB%B0%8F-%EC%98%88%EC%A0%9C.html" rel="alternate" type="text/html" title="Python replace() 사용방법 및 예제" /><published>2022-04-20T00:00:00+09:00</published><updated>2022-04-20T00:00:00+09:00</updated><id>http://localhost:4000/python/2022/04/20/Python-replace-%EC%82%AC%EC%9A%A9%EB%B0%A9%EB%B2%95-%EB%B0%8F-%EC%98%88%EC%A0%9C</id><content type="html" xml:base="http://localhost:4000/python/2022/04/20/Python-replace-%EC%82%AC%EC%9A%A9%EB%B0%A9%EB%B2%95-%EB%B0%8F-%EC%98%88%EC%A0%9C.html"><![CDATA[<h2 id="replace-함수">replace 함수</h2>
 
 <p>특별한 라이브러리를 import 하지 않고 사용할 수 있는 파이썬 내장 함수로 특정 문자를 새로운 문자로 변경하는 기능을 가지고 있습니다.</p>
 
@@ -35,7 +35,140 @@
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">-c-cababab</span>
 </code></pre></div></div>
 
-<p><code class="language-plaintext highlighter-rouge">abcabcababab</code>에서 왼쪽부터 2개의 <code class="language-plaintext highlighter-rouge">ab</code>만 치환</p>]]></content><author><name>GitHub User</name></author><category term="python" /><category term="python" /><summary type="html"><![CDATA[replace 함수]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-12-07T00:00:00+09:00</published><updated>2018-12-07T00:00:00+09:00</updated><id>http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<p><code class="language-plaintext highlighter-rouge">abcabcababab</code>에서 왼쪽부터 2개의 <code class="language-plaintext highlighter-rouge">ab</code>만 치환</p>]]></content><author><name>GitHub User</name></author><category term="python" /><category term="python" /><summary type="html"><![CDATA[replace 함수]]></summary></entry><entry><title type="html">BEM 방법론</title><link href="http://localhost:4000/css/2022/02/10/BEM-%EA%B5%AC%EC%A1%B0.html" rel="alternate" type="text/html" title="BEM 방법론" /><published>2022-02-10T00:00:00+09:00</published><updated>2022-02-10T00:00:00+09:00</updated><id>http://localhost:4000/css/2022/02/10/BEM-%EA%B5%AC%EC%A1%B0</id><content type="html" xml:base="http://localhost:4000/css/2022/02/10/BEM-%EA%B5%AC%EC%A1%B0.html"><![CDATA[<h2 id="bem-방법론이란">BEM 방법론이란?</h2>
+
+<p>BEM은 Block Element Modifier의 약자로, css 구조를 개선시키기 위한 css 개발 방법론 중 하나입니다.
+클래스의 이름을 짓는데 있어 구조적인 방법을 제시합니다. (id에는 사용할 수 없습니다.)</p>
+
+<p>BEM 구조의 이름을 여러번 반복하여 재사용하는 것이 가능하며, CSS나 Sass 파일에서도 일관된 구조를 만들기 때문에 유지보수가 쉽고 확장하기 편리하다는 장점이 있다.</p>
+
+<h2 id="block-블록">Block 블록</h2>
+
+<ul>
+  <li>재사용 할 수 있는 기능적으로 독립적인 페이지 구성 요소로 HTML에서 블록은 class 속성으로 표시됩니다.</li>
+  <li>블럭은 환경에 영향을 받으면 안되기 때문에 여백이나 위치를 설정하지 말아야 합니다.</li>
+  <li>블럭은 클래스의 어근을 만들고 항상 맨 앞에 위치합니다.</li>
+  <li>블럭을 정의한 후, 블럭이 형성한 클래스의 어근을 시작으로 그 블럭이 포함하는 요소들의 클래스명을 짓습니다.</li>
+</ul>
+
+<p>예) header, menu, footer …</p>
+
+<h2 id="element-요소">Element 요소</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>재사용할 수 있다
+</code></pre></div></div>
+
+<h3 id="1-base가-되는-브랜치-최신화">1. base가 되는 브랜치 최신화</h3>
+
+<p>master 브랜치를 가장 최신 상태로 변경한다.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout master
+git pull origin master
+</code></pre></div></div>
+
+<h3 id="2-내가-작업하는-브랜치-최신화">2. 내가 작업하는 브랜치 최신화</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout dev
+git rebase master
+</code></pre></div></div>
+
+<h2 id="rebase로-여러-커밋-하나로-합치기">rebase로 여러 커밋 하나로 합치기</h2>
+
+<h3 id="1-rebase-사용">1. rebase 사용</h3>
+
+<p>최신 커밋부터 총 3개를 합치고 싶으면 HEAD~3라고 입력한다. (2개라면 2라고 하면 된다.)</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git rebase <span class="nt">-i</span> HEAD~3
+</code></pre></div></div>
+
+<p><br /></p>
+
+<h3 id="2-합칠-커밋-선택">2. 합칠 커밋 선택</h3>
+
+<p>어떤 커밋으로 합칠 것인지 선택한다.
+<img src="https://user-images.githubusercontent.com/96608232/149260216-0c455812-1039-48f0-9238-0b97afba62df.png" alt="image" /></p>
+
+<p>최상단의 커밋을 제외하고 모두 pick을 s(squash)로 변경한 후 <code class="language-plaintext highlighter-rouge">:wq</code>를 입력해 저장&amp;종료를 한다.
+(squash인 커밋들을 pick으로 합치겠다는 의미)
+<img src="https://user-images.githubusercontent.com/96608232/149286742-b0b79689-42ad-4f7a-9a28-b5770a82aa75.png" alt="image" /></p>
+
+<p><br /></p>
+
+<h3 id="3-커밋-메세지-수정">3. 커밋 메세지 수정</h3>
+
+<p>아래와 같은 커밋을 편집할 수 있는 화면이 나오면 남겨 놓을 1개의 커밋만 빼고 모두 삭제해준다.</p>
+
+<p><img src="https://user-images.githubusercontent.com/96608232/149288386-cd8a576d-0721-48de-968c-cc7fe2eca72f.png" alt="image" /></p>
+
+<p>모두 삭제했으면 <code class="language-plaintext highlighter-rouge">:wq</code>를 입력해 저장&amp;종료한다.
+<img src="https://user-images.githubusercontent.com/96608232/149288628-aad3e28a-cc44-4a6b-8a17-088f78349415.png" alt="image" /></p>
+
+<p><br /></p>
+
+<h3 id="4-push-하기">4. push 하기</h3>
+
+<p>강제 push를 해준다.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push <span class="nt">-f</span> origin dev
+</code></pre></div></div>]]></content><author><name>GitHub User</name></author><category term="CSS" /><category term="css" /><category term="bem" /><summary type="html"><![CDATA[BEM 방법론이란?]]></summary></entry><entry><title type="html">Git rebase 사용하기</title><link href="http://localhost:4000/github/2022/01/13/git-rebase.html" rel="alternate" type="text/html" title="Git rebase 사용하기" /><published>2022-01-13T00:00:00+09:00</published><updated>2022-01-13T00:00:00+09:00</updated><id>http://localhost:4000/github/2022/01/13/git-rebase</id><content type="html" xml:base="http://localhost:4000/github/2022/01/13/git-rebase.html"><![CDATA[<h2 id="rebase-란">rebase 란?</h2>
+
+<h2 id="rebase로-브랜치-최신화-하기">rebase로 브랜치 최신화 하기</h2>
+
+<p>git으로 협업하면서 기준이 되는 브랜치(예를 들면 master)는 계속 작업을 진행하기 때문에 내가 작업하는 브랜치에는 최근 변경사항이 반영되어 있지 않기 때문에 최신화가 필요</p>
+
+<h3 id="1-base가-되는-브랜치-최신화">1. base가 되는 브랜치 최신화</h3>
+
+<p>master 브랜치를 가장 최신 상태로 변경한다.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout master
+git pull origin master
+</code></pre></div></div>
+
+<h3 id="2-내가-작업하는-브랜치-최신화">2. 내가 작업하는 브랜치 최신화</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout dev
+git rebase master
+</code></pre></div></div>
+
+<h2 id="rebase로-여러-커밋-하나로-합치기">rebase로 여러 커밋 하나로 합치기</h2>
+
+<h3 id="1-rebase-사용">1. rebase 사용</h3>
+
+<p>최신 커밋부터 총 3개를 합치고 싶으면 HEAD~3라고 입력한다. (2개라면 2라고 하면 된다.)</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git rebase <span class="nt">-i</span> HEAD~3
+</code></pre></div></div>
+
+<p><br /></p>
+
+<h3 id="2-합칠-커밋-선택">2. 합칠 커밋 선택</h3>
+
+<p>어떤 커밋으로 합칠 것인지 선택한다.
+<img src="https://user-images.githubusercontent.com/96608232/149260216-0c455812-1039-48f0-9238-0b97afba62df.png" alt="image" /></p>
+
+<p>최상단의 커밋을 제외하고 모두 pick을 s(squash)로 변경한 후 <code class="language-plaintext highlighter-rouge">:wq</code>를 입력해 저장&amp;종료를 한다.
+(squash인 커밋들을 pick으로 합치겠다는 의미)
+<img src="https://user-images.githubusercontent.com/96608232/149286742-b0b79689-42ad-4f7a-9a28-b5770a82aa75.png" alt="image" /></p>
+
+<p><br /></p>
+
+<h3 id="3-커밋-메세지-수정">3. 커밋 메세지 수정</h3>
+
+<p>아래와 같은 커밋을 편집할 수 있는 화면이 나오면 남겨 놓을 1개의 커밋만 빼고 모두 삭제해준다.</p>
+
+<p><img src="https://user-images.githubusercontent.com/96608232/149288386-cd8a576d-0721-48de-968c-cc7fe2eca72f.png" alt="image" /></p>
+
+<p>모두 삭제했으면 <code class="language-plaintext highlighter-rouge">:wq</code>를 입력해 저장&amp;종료한다.
+<img src="https://user-images.githubusercontent.com/96608232/149288628-aad3e28a-cc44-4a6b-8a17-088f78349415.png" alt="image" /></p>
+
+<p><br /></p>
+
+<h3 id="4-push-하기">4. push 하기</h3>
+
+<p>강제 push를 해준다.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push <span class="nt">-f</span> origin dev
+</code></pre></div></div>]]></content><author><name>GitHub User</name></author><category term="Github" /><category term="rebase" /><summary type="html"><![CDATA[rebase 란?]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-12-07T00:00:00+09:00</published><updated>2018-12-07T00:00:00+09:00</updated><id>http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/2018/12/07/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
 
@@ -576,339 +709,4 @@ This feature is contributed by <a href="https://github.com/Lucas-C">Lucas-C</a>.
 
 <h3 id="plantuml-block-4">PlantUML Block-4</h3>
 
-<p><img class="plantuml" src="http://www.plantuml.com/plantuml/svg/~h407374617274756d6c0a736b696e706172616d2068616e647772697474656e20747275650a0a736b696e706172616d2075736563617365207b0a20204261636b67726f756e64436f6c6f72204461726b536561477265656e0a2020426f72646572436f6c6f72204461726b536c617465477261790a0a20204261636b67726f756e64436f6c6f723c3c204d61696e203e3e2059656c6c6f77477265656e0a2020426f72646572436f6c6f723c3c204d61696e203e3e2059656c6c6f77477265656e0a0a20204172726f77436f6c6f72204f6c6976650a20204163746f72426f72646572436f6c6f7220626c61636b0a20204163746f72466f6e744e616d6520436f75726965720a0a20204163746f724261636b67726f756e64436f6c6f723c3c2048756d616e203e3e20476f6c640a7d0a0a55736572203c3c2048756d616e203e3e0a3a4d61696e2044617461626173653a206173204d7953716c203c3c204170706c69636174696f6e203e3e0a28537461727429203c3c204f6e652053686f74203e3e0a2855736520746865206170706c69636174696f6e29206173202855736529203c3c204d61696e203e3e0a0a55736572202d3e20285374617274290a55736572202d2d3e2028557365290a0a4d7953716c202d2d3e2028557365290a0a40656e64756d6c" /></p>]]></content><author><name>GitHub User</name></author><category term="example" /><category term="plantuml" /><summary type="html"><![CDATA[My First PlantUML]]></summary></entry><entry><title type="html">Quick markdown example</title><link href="http://localhost:4000/markdown/2017/06/10/quick-mardown-example.html" rel="alternate" type="text/html" title="Quick markdown example" /><published>2017-06-10T00:00:00+09:00</published><updated>2017-06-10T00:00:00+09:00</updated><id>http://localhost:4000/markdown/2017/06/10/quick-mardown-example</id><content type="html" xml:base="http://localhost:4000/markdown/2017/06/10/quick-mardown-example.html"><![CDATA[<p>Paragraphs are separated by a blank line.</p>
-
-<p>2nd paragraph. <em>Italic</em>, <strong>bold</strong>, and <code class="language-plaintext highlighter-rouge">monospace</code>. Itemized lists
-look like:</p>
-
-<ul>
-  <li>this one</li>
-  <li>that one</li>
-  <li>the other one</li>
-</ul>
-
-<p>Note that — not considering the asterisk — the actual text
-content starts at 4-columns in.</p>
-
-<blockquote>
-  <p>Block quotes are
-written like so.</p>
-
-  <p>They can span multiple paragraphs,
-if you like.</p>
-</blockquote>
-
-<p>Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., “it’s all
-in chapters 12–14”). Three dots … will be converted to an ellipsis.
-Unicode is supported. ☺</p>
-
-<h2 id="an-h2-header">An h2 header</h2>
-
-<p>Here’s a numbered list:</p>
-
-<ol>
-  <li>first item</li>
-  <li>second item</li>
-  <li>third item</li>
-</ol>
-
-<p>Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here’s a code sample:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Let me re-iterate ...
-for i in 1 .. 10 { do-something(i) }
-</code></pre></div></div>
-
-<p>As you probably guessed, indented 4 spaces. By the way, instead of
-indenting the block, you can use delimited blocks, if you like:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>define foobar() {
-    print "Welcome to flavor country!";
-}
-</code></pre></div></div>
-
-<p>(which makes copying &amp; pasting easier). You can optionally mark the
-delimited block for Pandoc to syntax highlight it:</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">time</span>
-<span class="c1"># Quick, count to ten!
-</span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
-    <span class="c1"># (but not *too* quick)
-</span>    <span class="n">time</span><span class="p">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-</code></pre></div></div>
-
-<h3 id="an-h3-header">An h3 header</h3>
-
-<p>Now a nested list:</p>
-
-<ol>
-  <li>
-    <p>First, get these ingredients:</p>
-
-    <ul>
-      <li>carrots</li>
-      <li>celery</li>
-      <li>lentils</li>
-    </ul>
-  </li>
-  <li>
-    <p>Boil some water.</p>
-  </li>
-  <li>
-    <p>Dump everything in the pot and follow
-this algorithm:</p>
-
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find wooden spoon
-uncover pot
-stir
-cover pot
-balance wooden spoon precariously on pot handle
-wait 10 minutes
-goto first step (or shut off burner when done)
-</code></pre></div>    </div>
-
-    <p>Do not bump wooden spoon or it will fall.</p>
-  </li>
-</ol>
-
-<p>Notice again how text always lines up on 4-space indents (including
-that last line which continues item 3 above).</p>
-
-<p>Here’s a link to <a href="http://foo.bar">a website</a>, to a <a href="local-doc.html">local
-doc</a>, and to a <a href="#an-h2-header">section heading in the current
-doc</a>. Here’s a footnote <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
-
-<p>Tables can look like this:</p>
-
-<p>Name           Size  Material      Color
-————- —–  ————  ————
-All Business      9  leather       brown
-Roundabout       10  hemp canvas   natural
-Cinderella       11  glass         transparent</p>
-
-<p>Table: Shoes sizes, materials, and colors.</p>
-
-<p>(The above is the caption for the table.) Pandoc also supports
-multi-line tables:</p>
-
-<hr />
-<p>Keyword   Text
-——–  ———————–
-red       Sunsets, apples, and
-          other red or reddish
-          things.</p>
-
-<p>green     Leaves, grass, frogs
-          and other things it’s
-          not easy being.
-——–  ———————–</p>
-
-<p>A horizontal rule follows.</p>
-
-<hr />
-
-<p>Here’s a definition list:</p>
-
-<dl>
-  <dt>apples</dt>
-  <dd>Good for making applesauce.</dd>
-  <dt>oranges</dt>
-  <dd>Citrus!</dd>
-  <dt>tomatoes</dt>
-  <dd>There’s no “e” in tomatoe.</dd>
-</dl>
-
-<p>Again, text is indented 4 spaces. (Put a blank line between each
-term and  its definition to spread things out more.)</p>
-
-<p>Here’s a “line block” (note how whitespace is honored):</p>
-
-<table>
-  <tbody>
-    <tr>
-      <td>Line one</td>
-    </tr>
-    <tr>
-      <td>Line too</td>
-    </tr>
-    <tr>
-      <td>Line tree</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>and images can be specified like so:</p>
-
-<p><img src="https://user-images.githubusercontent.com/9413601/123900693-1d9ebd00-d99c-11eb-8e9e-cf7879187606.png" alt="example image" title="An exemplary image" /></p>
-
-<p>Inline math equation: $\omega = d\phi / dt$. Display
-math should get its own line like so:</p>
-
-<p>$$I = \int \rho R^{2} dV$$</p>
-
-<p>And note that you can backslash-escape any punctuation characters
-which you wish to be displayed literally, ex.: `foo`, *bar*, etc.</p>
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>Some footnote text. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name>GitHub User</name></author><category term="markdown" /><category term="example" /><summary type="html"><![CDATA[Paragraphs are separated by a blank line.]]></summary></entry><entry><title type="html">This post demonstrates post content styles</title><link href="http://localhost:4000/junk/2017/05/20/this-post-demonstrates-post-content-styles.html" rel="alternate" type="text/html" title="This post demonstrates post content styles" /><published>2017-05-20T00:00:00+09:00</published><updated>2017-05-20T00:00:00+09:00</updated><id>http://localhost:4000/junk/2017/05/20/this-post-demonstrates-post-content-styles</id><content type="html" xml:base="http://localhost:4000/junk/2017/05/20/this-post-demonstrates-post-content-styles.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.</p>
-
-<h2 id="some-great-heading-h2">Some great heading (h2)</h2>
-
-<p>Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu.</p>
-
-<p>Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
-
-<h2 id="another-great-heading-h2">Another great heading (h2)</h2>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.</p>
-
-<h3 id="some-great-subheading-h3">Some great subheading (h3)</h3>
-
-<p>Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum.</p>
-
-<p>Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.</p>
-
-<h3 id="some-great-subheading-h3-1">Some great subheading (h3)</h3>
-
-<p>Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
-
-<blockquote>
-  <p>This quote will change your life. It will reveal the secrets of the universe, and all the wonders of humanity. Don’t misuse it.</p>
-</blockquote>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt.</p>
-
-<h3 id="some-great-subheading-h3-2">Some great subheading (h3)</h3>
-
-<p>Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum.</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
-  <span class="nt">&lt;head&gt;</span> <span class="nt">&lt;/head&gt;</span>
-  <span class="nt">&lt;body&gt;</span>
-    <span class="nt">&lt;p&gt;</span>Hello, World!<span class="nt">&lt;/p&gt;</span>
-  <span class="nt">&lt;/body&gt;</span>
-<span class="nt">&lt;/html&gt;</span>
-</code></pre></div></div>
-
-<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
-
-<h4 id="you-might-want-a-sub-subheading-h4">You might want a sub-subheading (h4)</h4>
-
-<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
-
-<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
-
-<h4 id="but-its-probably-overkill-h4">But it’s probably overkill (h4)</h4>
-
-<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
-
-<h3 id="oh-hai-an-unordered-list">Oh hai, an unordered list!!</h3>
-
-<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
-
-<ul>
-  <li>First item, yo</li>
-  <li>Second item, dawg</li>
-  <li>Third item, what what?!</li>
-  <li>Fourth item, fo sheezy my neezy</li>
-</ul>
-
-<h3 id="oh-hai-an-ordered-list">Oh hai, an ordered list!!</h3>
-
-<p>In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.</p>
-
-<ol>
-  <li>First item, yo</li>
-  <li>Second item, dawg</li>
-  <li>Third item, what what?!</li>
-  <li>Fourth item, fo sheezy my neezy</li>
-</ol>
-
-<h2 id="headings-are-cool-h2">Headings are cool! (h2)</h2>
-
-<p>Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
-
-<p>Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
-
-<p>Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.</p>
-
-<h3 id="tables">Tables</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>Title 1</th>
-      <th>Title 2</th>
-      <th>Title 3</th>
-      <th>Title 4</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>lorem</td>
-      <td>lorem ipsum</td>
-      <td>lorem ipsum dolor</td>
-      <td>lorem ipsum dolor sit</td>
-    </tr>
-    <tr>
-      <td>lorem ipsum dolor sit</td>
-      <td>lorem ipsum dolor sit</td>
-      <td>lorem ipsum dolor sit</td>
-      <td>lorem ipsum dolor sit</td>
-    </tr>
-    <tr>
-      <td>lorem ipsum dolor sit</td>
-      <td>lorem ipsum dolor sit</td>
-      <td>lorem ipsum dolor sit</td>
-      <td>lorem ipsum dolor sit</td>
-    </tr>
-    <tr>
-      <td>lorem ipsum dolor sit</td>
-      <td>lorem ipsum dolor sit</td>
-      <td>lorem ipsum dolor sit</td>
-      <td>lorem ipsum dolor sit</td>
-    </tr>
-  </tbody>
-</table>
-
-<table>
-  <thead>
-    <tr>
-      <th>Title 1</th>
-      <th>Title 2</th>
-      <th>Title 3</th>
-      <th>Title 4</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>lorem</td>
-      <td>lorem ipsum</td>
-      <td>lorem ipsum dolor</td>
-      <td>lorem ipsum dolor sit</td>
-    </tr>
-    <tr>
-      <td>lorem ipsum dolor sit amet</td>
-      <td>lorem ipsum dolor sit amet consectetur</td>
-      <td>lorem ipsum dolor sit amet</td>
-      <td>lorem ipsum dolor sit</td>
-    </tr>
-    <tr>
-      <td>lorem ipsum dolor</td>
-      <td>lorem ipsum</td>
-      <td>lorem</td>
-      <td>lorem ipsum</td>
-    </tr>
-    <tr>
-      <td>lorem ipsum dolor</td>
-      <td>lorem ipsum dolor sit</td>
-      <td>lorem ipsum dolor sit amet</td>
-      <td>lorem ipsum dolor sit amet consectetur</td>
-    </tr>
-  </tbody>
-</table>]]></content><author><name>Bart Simpson</name></author><category term="junk" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.]]></summary></entry></feed>
+<p><img class="plantuml" src="http://www.plantuml.com/plantuml/svg/~h407374617274756d6c0a736b696e706172616d2068616e647772697474656e20747275650a0a736b696e706172616d2075736563617365207b0a20204261636b67726f756e64436f6c6f72204461726b536561477265656e0a2020426f72646572436f6c6f72204461726b536c617465477261790a0a20204261636b67726f756e64436f6c6f723c3c204d61696e203e3e2059656c6c6f77477265656e0a2020426f72646572436f6c6f723c3c204d61696e203e3e2059656c6c6f77477265656e0a0a20204172726f77436f6c6f72204f6c6976650a20204163746f72426f72646572436f6c6f7220626c61636b0a20204163746f72466f6e744e616d6520436f75726965720a0a20204163746f724261636b67726f756e64436f6c6f723c3c2048756d616e203e3e20476f6c640a7d0a0a55736572203c3c2048756d616e203e3e0a3a4d61696e2044617461626173653a206173204d7953716c203c3c204170706c69636174696f6e203e3e0a28537461727429203c3c204f6e652053686f74203e3e0a2855736520746865206170706c69636174696f6e29206173202855736529203c3c204d61696e203e3e0a0a55736572202d3e20285374617274290a55736572202d2d3e2028557365290a0a4d7953716c202d2d3e2028557365290a0a40656e64756d6c" /></p>]]></content><author><name>GitHub User</name></author><category term="example" /><category term="plantuml" /><summary type="html"><![CDATA[My First PlantUML]]></summary></entry></feed>
