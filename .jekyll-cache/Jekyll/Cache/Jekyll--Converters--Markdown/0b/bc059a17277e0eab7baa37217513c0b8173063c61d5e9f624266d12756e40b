@@ -1,0 +1,39 @@
+I"H<h2 id="replace-함수">replace 함수</h2>
+
+<p>특별한 라이브러리를 import 하지 않고 사용할 수 있는 파이썬 내장 함수로 특정 문자를 새로운 문자로 변경하는 기능을 가지고 있습니다.</p>
+
+<blockquote>
+  <h4 id="strreplaceold-new-count">str.replace(old, new, [count])</h4>
+
+  <ul>
+    <li>str : 문자열</li>
+    <li>old : 문자열에서 찾을 문자</li>
+    <li>new : 변경하고 싶은 문자</li>
+    <li>count : 왼쪽부터 치환하고 싶은 횟수</li>
+  </ul>
+</blockquote>
+
+<p><br /></p>
+
+<h2 id="replace-함수-사용-예시">replace 함수 사용 예시</h2>
+
+<h3 id="문자-변경">문자 변경</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">str</span> <span class="o">=</span> <span class="s">'hello world'</span>
+<span class="nb">str</span><span class="p">.</span><span class="n">replace</span><span class="p">(</span><span class="s">'hello'</span><span class="p">,</span> <span class="s">'hi'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hi world
+</code></pre></div></div>
+
+<h3 id="횟수-지정하여-문자-변경">횟수 지정하여 문자 변경</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">str</span> <span class="o">=</span> <span class="s">'abcabcababab'</span>
+<span class="nb">str</span><span class="p">.</span><span class="n">replace</span><span class="p">(</span><span class="s">'ab'</span><span class="p">,</span> <span class="s">'-'</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">-c-cababab</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">abcabcababab</code>에서 왼쪽부터 2개의 <code class="language-plaintext highlighter-rouge">ab</code>만 치환</p>
+:ET
